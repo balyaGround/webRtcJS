@@ -220,8 +220,8 @@ class App extends React.Component {
           <div>
             <video
               style={{
-                width: 600,
-                height: 500,
+                width: 500,
+                height: 300,
                 // margin: 5,
                 backgroundColor: "black",
               }}
@@ -233,8 +233,8 @@ class App extends React.Component {
           <div>
             <video
               style={{
-                width: 600,
-                height: 500,
+                width: 500,
+                height: 300,
                 // margin: 5,
                 backgroundColor: "black",
               }}
@@ -250,8 +250,8 @@ class App extends React.Component {
               src={imgawal}
               alt="No Image Available"
               style={{
-                width: 600,
-                height: 500,
+                width: 400,
+                height: 300,
                 // margin: 5
               }}
             />
@@ -262,15 +262,15 @@ class App extends React.Component {
               src={imgawal}
               alt="No Image Available"
               style={{
-                width: 600,
-                height: 500,
+                width: 400,
+                height: 300,
                 // margin: 5
               }}
             />
           </div>
         </div>
         <br />
-        <div>
+        <div style={{ marginBottom: "-5rem", width: "30rem", display: "flex" }}>
           <button onClick={this.createOffer}>Offer</button>
           <button onClick={this.createAnswer}>Answer</button>
 
