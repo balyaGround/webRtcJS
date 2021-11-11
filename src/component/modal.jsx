@@ -10,7 +10,8 @@ function ModalForm({ closeModal }) {
     nik: "",
     address: "",
     email: "",
-    mobile: "",
+    Dob: "",
+    Mob: "",
   });
   return (
     <div>
